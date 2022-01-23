@@ -117,8 +117,12 @@
 }
 
 .header_down-site {
-    height: 600px;
+    position: relative;
+    height: 530px;
     background-color: #262D33;
+    overflow: visib;
+
+    margin-bottom: 300px;
 }
 
 .header-bottom_inner {
@@ -138,10 +142,12 @@
     color: #FFFFFF;
 }
 
-.main {
+.main-body {
     background-color: #30363D;
     padding: 35px;
     border-radius: 10px;
+
+    margin-bottom: 30px;
 }
 
 .card-main {
@@ -164,12 +170,20 @@
 }
 
 
-.tabs-responsive-side{
+.tabs-responsive-side{ 
     background-color: red;
 }
-.accordion_main{
+
+.accordion_main {
     position: absolute;
-    top: 380px;
-    left: 400px;
+    left: 0;
+    right: 0;
+    bottom: -300px;
+
+    z-index: 100;
+    height: 570px;
 }
 
+.accordion_main .container {
+    padding: 0 !important;
+}
