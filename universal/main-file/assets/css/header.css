@@ -117,6 +117,7 @@
 }
 
 .header_down-site {
+    height: 600px;
     background-color: #262D33;
 }
 
@@ -167,5 +168,8 @@
     background-color: red;
 }
 .accordion_main{
+    position: absolute;
+    top: 380px;
+    left: 400px;
 }
 
