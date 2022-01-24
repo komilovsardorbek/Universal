@@ -20,6 +20,11 @@
     <!-- Main Style CSS  -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -102,88 +107,142 @@
         </div>
     </section>
 
-    <section>
-        <div class="header_down-site">
+    <header class="page-header">
+        <nav class="page-header__nav site-nav">
             <div class="container">
-                <div class="header_botton">
-                    <ul class="header-bottom_inner">
-                        <li><a href="">News</a></li>
-                        <li><a href="">Opinion</a></li>
-                        <li><a href="">Science</a></li>
-                        <li><a href="">Life</a></li>
-                        <li><a href="">Travel</a></li>
-                        <li><a href="">Moneys</a></li>
-                        <li><a href="">Art & Design</a></li>
-                        <li><a href="">Sports</a></li>
-                        <li><a href="">People</a></li>
-                        <li><a href="">Health</a></li>
-                        <li><a href="">Education</a></li>
-                    </ul>
-                </div>
-                <div class="main">
-                        <div class="main-body row" >
-                            <div class="card-main col-lg-3 d-flex">
-                                <div class="card-main_titile">
-                                    25 Songs That Tell <br> Us Where Music Is <br> Going
+                <ul class="site-nav__list">
+                    <li>
+                        <a href="">News</a>
+                    </li>
+                    <li>
+                        <a href="">Opinion</a>
+                    </li>
+                    <li>
+                        <a href="">Science</a>
+                    </li>
+                    <li>
+                        <a href="">Life</a>
+                    </li>
+                    <li>
+                        <a href="">Travel</a>
+                    </li>
+                    <li>
+                        <a href="">Moneys</a>
+                    </li>
+                    <li>
+                        <a href="">Art & Design</a>
+                    </li>
+                    <li>
+                        <a href="">Sports</a>
+                    </li>
+                    <li>
+                        <a href="">People</a>
+                    </li>
+                    <li>
+                        <a href="">Health</a>
+                    </li>
+                    <li>
+                        <a href="">Education</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="container">
+            <section class="popular-news">
+                <ul>
+                    <li>
+                        <p>
+                            25 Songs That Tell <br> Us Where Music Is <br> Going
+                        </p>
+                        <img class="img_main" src="./assets/images/cardone.png" alt="">
+                    </li>
+                    <li>
+                        <p>
+                            These Ancient <br> Assassins Eat Their <br> Own Kind
+                        </p>
+                        <img src="./assets/images/cardtwo.png" alt="">
+                    </li>
+                    <li>
+                        <p>
+                            How Do You Teach  <br> People to Love <br> Difficult Music?
+                        </p>
+                        <img src="./assets/images/cardthree.png" alt="">
+                    </li>
+                    <li>
+                        <p>
+                            International <br>  Soccer`s Man of <br> Mystery
+                        </p>
+                        <img src="./assets/images/cardfour.png" alt="">
+                    </li>
+                </ul>
+            </section>
+            <section class="banner__playlist playlist">
+                <div>
+                    <ul class="playlist__preview-list">
+                        <li class="playlist__preview preview active" style="background-image: url('./assets/images/rectangle.png');">
+                            <div class="author">
+                                <img src="./assets/images/rectangle.png" alt="">
+                                <div>
+                                    <h3>By Bengamin</h3>
+                                    <span>Traveler</span>
                                 </div>
-                                <img class="img_main" src="./assets/images/cardone.png" alt="">
                             </div>
-                            <div class="card-main col-lg-3 d-flex">
-                                <div class="card-main_titile">
-                                    These Ancient <br> Assassins Eat Their <br> Own Kind
-                                </div>
-                                <img src="./assets/images/cardtwo.png" alt="">
-                            </div>
-                            <div class="card-main col-lg-3 d-flex">
-                                <div class="card-main_titile">
-                                    How Do You Teach  <br> People to Love <br> Difficult Music?
-                                </div>
-                                <img src="./assets/images/cardthree.png" alt="">
-                            </div>
-                            <div class="card-main col-lg-3 d-flex">
-                                <div class="card-main_titile">
-                                    International <br>  Soccer`s Man of <br> Mystery
-                                </div>
-                                <img src="./assets/images/cardfour.png" alt="">
-                            </div>
-                        </div>
-                        <div class="accordion_main">
-                            <div class="container">
-                            <div class="row accordion_test">
-                                <div class="col-sm-9">
-                                    <div class="tab-content " id="v-pills-right-tabContent">
-                                        <div class="tab-pane fade" id="v-pills-right-home" role="tabpanel" aria-labelledby="v-pills-right-home-tab">
-                                            <img class="w-100" src="./assets/images/rectangle.png" alt="">
-                                        </div>
-                                        <div class="tab-pane fade" id="v-pills-right-profile" role="tabpanel" aria-labelledby="v-pills-right-profile-tab">
-                                            <img class="w-100" src="./assets/images/rectangle.png" alt="">
-                                        </div>
-                                        <div class="tab-pane fade" id="v-pills-right-messages" role="tabpanel" aria-labelledby="v-pills-right-messages-tab">
-                                            <img class="w-100" src="./assets/images/rectangle.png" alt="">
-                                        </div>
-                                        <div class="tab-pane fade active show" id="v-pills-right-settings" role="tabpanel" aria-labelledby="v-pills-right-settings-tab">
-                                            <img class="w-100" src="./assets/images/rectangle.png" alt="">
+
+                            <div>
+                                <a class="preview__category" href="#">Destinations</a>
+                                <h2>
+                                    In Southeast England, White Cliffs and Fish
+                                </h2>
+                                <div class="preview__footer">
+                                    <a class="preview__link" href="#">Read more</a>
+                                    <div class="author">
+                                        <img src="" alt="">
+                                        <div>
+                                            <h3>The chalk chiff</h3>
+                                            <span>18:08</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 tabs-responsive-side ">
-                                    <div class="nav flex-column border-tab nav-right" id="v-pills-right-tab" role="tablist" aria-orientation="vertical">
-                                        <div>Recommended for you</div>
-                                        <a class="nav-link" id="v-pills-right-home-tab" data-bs-toggle="pill" href="#v-pills-right-home">Home</a>
-                                        <a class="nav-link" id="v-pills-right-profile-tab" data-bs-toggle="pill" href="#v-pills-right-profile">Profile</a>
-                                        <a class="nav-link" id="v-pills-right-messages-tab" data-bs-toggle="pill" href="#v-pills-right-messages">Inbox</a>
-                                        <a class="nav-link active" id="v-pills-right-settings-tab" data-bs-toggle="pill" href="#v-pills-right-settings">Settings</a></div>
-                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+                <div>
+                    <h2 class="playlist__title">Recommended for you</h2>
+                    <ul class="playlist__links">
+                        <li class="playlist__toggler blue active">
+                            <h3>Food</h3>
+                            <p>
+                                For Chicken-Fried Steak, Too Much Is Just Enough
+                            </p>
+                        </li>
+                        <li class="playlist__toggler">
+                            <h3>Cars</h3>
+                            <p>
+                                For Chicken-Fried Steak, Too Much Is Just Enough
+                            </p>
+                        </li>
+                        <li class="playlist__toggler orange">
+                            <h3>Movies</h3>
+                            <p>
+                                For Chicken-Fried Steak, Too Much Is Just Enough
+                            </p>
+                        </li>
+                        <li class="playlist__toggler">
+                            <h3>NFL</h3>
+                            <p>
+                                For Chicken-Fried Steak, Too Much Is Just Enough
+                            </p>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </section>  
         </div>
-    </section>
-
-    <br><br>
-
+    </div>
     
     <!--About Us Start-->
     <section class="main-about">
